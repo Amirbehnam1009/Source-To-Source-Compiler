@@ -1,0 +1,12 @@
+program test
+begin
+var a int;
+var b int;
+a := 2;
+b := 3;
+print(-(1 + 2 * (b-a)));
+a := a/b;
+print (a);
+print(1 mod 3);
+print (a<>b)
+end
